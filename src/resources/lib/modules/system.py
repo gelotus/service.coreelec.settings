@@ -697,7 +697,7 @@ class system:
         try:
             self.oe.dbg_log('system::get_json', 'enter_function', 0)
             if url is None:
-                url = self.UPDATE_DOWNLOAD_URL % ('releases', 'releases.json')
+                url = self.UPDATE_DOWNLOAD_URL % ('update.coreelec.org', '', 'releases.php')
             if url.split('/')[-1] != 'releases.json':
                 url = url + '/releases.json'
             data = self.oe.load_url(url)
@@ -776,7 +776,7 @@ class system:
                 update_json = json.loads(update_json)
                 self.last_update_check = time.time()
                 if 'update' in update_json['data'] and 'folder' in update_json['data']:
-                    self.update_file = self.UPDATE_DOWNLOAD_URL % (update_json['data']['folder'], update_json['data']['update'])
+                    self.update_file = self.UPDATE_DOWNLOAD_URL % (update_json['data']['host'], update_json['data']['folder'], update_json['data']['update'])
                     if self.struct['update']['settings']['UpdateNotify']['value'] == '1':
                         self.oe.notify(self.oe._(32363).encode('utf-8'), self.oe._(32364).encode('utf-8'))
                     if self.struct['update']['settings']['AutoUpdate']['value'] == 'auto' and force == False:
