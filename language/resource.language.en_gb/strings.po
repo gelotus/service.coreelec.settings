@@ -166,7 +166,7 @@ msgid "Set to ON to delay Kodi startup until the network is available. Use this 
 msgstr ""
 
 msgctxt "#737"
-msgid "737"
+msgid "Max waiting time in seconds for network presence before starting Kodi"
 msgstr ""
 
 msgctxt "#738"

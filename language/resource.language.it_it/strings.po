@@ -47,7 +47,7 @@ msgstr "Architettura: "
 
 msgctxt "#609"
 msgid "CoreELEC is a minimal Linux distribution purpose built for Kodi media center based on LibreELEC. CoreELEC is designed to boot fast with an installation process simple enough for anyone to convert a bare HTPC into a fully configured media machine in under 15 minutes."
-msgstr "CoreELEC è una distribuzione Linux essenziale sviluppata a contorno del media center Kodi, basata su LibreELEC. CoreELEC è sviluppata per avviarsi velocemente con un processo di installazione semplice abbastanza per ognuno per convertire un semplice HTPC in un dispositivo multimediale pienamente funzionale in meno di 15 minuti.""
+msgstr "CoreELEC è una distribuzione Linux essenziale sviluppata a contorno del media center Kodi, basata su LibreELEC. CoreELEC è sviluppata per avviarsi velocemente con un processo di installazione abbastanza semplice per tutti, per convertire un semplice HTPC in un dispositivo multimediale pienamente funzionale in meno di 15 minuti.""
 
 msgctxt "#610"
 msgid ""
@@ -131,7 +131,7 @@ msgstr "[COLOR FFFF0000]HARD RESET[/COLOR]\nRiporta permanentemente la configura
 
 msgctxt "#726"
 msgid "Enable or disable support for Wireless (WLAN) networks"
-msgstr "Abilita o disabilita il supporto per le reti Wireless (WLAN)"
+msgstr "Abilita o disabilita il supporto per la rete Wireless (WLAN)"
 
 msgctxt "#727"
 msgid "Enable a 'tethered' Wireless Access Point. This requires your wireless card (and driver) to support bridging and access point mode. Not all cards are capable."
@@ -147,7 +147,7 @@ msgstr "Configura la Password dell'Access Point"
 
 msgctxt "#730"
 msgid "Enable or disable support for Wired (Ethernet) networks"
-msgstr "Abilita o disabilita il supporto per le reti Cablate (Ethernet)"
+msgstr "Abilita o disabilita il supporto per le rete Cablata (Ethernet)"
 
 msgctxt "#732"
 msgid "Configure the 1st time (NTP) server"
@@ -166,8 +166,8 @@ msgid "Set to ON to delay Kodi startup until the network is available. Use this 
 msgstr "Su ON ritarda l'avvio di Kodi fino alla disponibilità della rete. Usare questa opzione se l'avvio di Kodi avviene prima che la rete sia disponibile ed i database centrali MySQL siano accessibili."
 
 msgctxt "#737"
-msgid "737"
-msgstr ""
+msgid "Max waiting time in seconds for network presence before starting Kodi"
+msgstr "Il tempo massimo in secondi di attesa per la disponibilità della rete prima di avviare Kodi"
 
 msgctxt "#738"
 msgid "Set to ON to enable the embedded Samba (SMB) filesharing service"
@@ -323,11 +323,11 @@ msgstr "Rete"
 
 msgctxt "#32102"
 msgid "Wireless Networks"
-msgstr "Reti Wireless"
+msgstr "Rete Wireless"
 
 msgctxt "#32103"
 msgid "Wired Networks"
-msgstr "Reti Cablate"
+msgstr "Rete Cablata"
 
 msgctxt "#32105"
 msgid "Active"
@@ -523,7 +523,7 @@ msgstr "URL non valida"
 
 msgctxt "#32196"
 msgid "About"
-msgstr "About"
+msgstr "Informazioni su"
 
 msgctxt "#32198"
 msgid "SSID"
@@ -555,7 +555,7 @@ msgstr "Abilita SSH"
 
 msgctxt "#32206"
 msgid "Enable Avahi (Zeroconf)"
-msgstr "Abilita Avahi (Zeroconf"
+msgstr "Abilita Avahi (Zeroconf)"
 
 msgctxt "#32207"
 msgid "Avahi"
