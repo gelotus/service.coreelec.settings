@@ -10,8 +10,11 @@
   <extension point="xbmc.service"       library="service.py" start="startup"></extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">@DISTRONAME@ Configuration</summary>
+    <summary lang="it">Configurazione @DISTRONAME@</summary>
     <description lang="en">Use this addon to manage your @DISTRONAME@ system's underlying operating system. From here you can manage the entire system so you don't have to worry about what runs under the hood.[CR][CR]From here you can change your network connectivity, your keyboard layout and language and enable/disable remote access including Samba and SSH.</description>
+    <description lang="it">Usare questo addon per gestire gli strati piu' interni del sistema operativo di @DISTRONAME@. Da qui' e' possibile gestire l'intero sistema in modo tale da non preoccuparsi di cosa accade sotto.[CR][CR]Da qui' e' possibile modificare le preferenze di rete, le impostazioni della tastiera, la lingua ed abilitare/disabilitare l'accesso remoto incluso Samba ed SSH.</description>
     <platform>all</platform>
+    <language>en it</language>
     <assets>
     <icon>resources/icon.png</icon>
     <fanart>resources/fanart.png</fanart>
