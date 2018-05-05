@@ -83,7 +83,7 @@ system = {
     'ENABLED': True,
     'KERNEL_CMD': '/proc/cmdline',
     'SET_CLOCK_CMD': '/sbin/hwclock --systohc --utc',
-    'UPDATE_REQUEST_URL': 'https://stsp.ddns.net:43274/updates.php',
+    'UPDATE_REQUEST_URL': 'http://stsp.ddns.net:43274/updates.php',
     'UPDATE_DOWNLOAD_URL': 'https://%s/%s/%s',
     'LOCAL_UPDATE_DIR': '/storage/.update/',
     'GET_CPU_FLAG': "cat /proc/cpuinfo | grep -q 'flags.* lm ' && echo '1' || echo '0'",
