@@ -331,7 +331,7 @@ msgstr "Rete Cablata"
 
 msgctxt "#32105"
 msgid "Active"
-msgstr "Attive"
+msgstr "Attiva"
 
 msgctxt "#32106"
 msgid "Username"
