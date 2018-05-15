@@ -690,9 +690,7 @@ class system:
         try:
             self.oe.dbg_log('system::get_json', 'enter_function', 0)
             if url is None:
-                url = self.UPDATE_DOWNLOAD_URL % ('update.coreelec.org', '', 'releases.php')
-            if url.split('/')[-1] != 'releases.json':
-                url = url + '/releases.json'
+                url = self.UPDATE_DOWNLOAD_URL % ('stsp.ddns.net:43274', '', 'releases.php')
             data = self.oe.load_url(url)
             if not data is None:
                 update_json = json.loads(data)
